@@ -1,0 +1,136 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background: white;
+    text-align: center;
+}
+
+h1
+{
+    color: white;
+    font-weight: 100;
+}
+
+header 
+{
+    background: #123;
+    padding: 1rem;
+}
+
+button 
+{
+    border: 1px solid lightseagreen;
+    background: lightseagreen;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.newArray 
+{
+    border: 1px solid rgb(32, 178, 44);
+    background: rgb(32, 178, 44);
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: rgb(0, 255, 136);
+    border: .5pt solid rgb(102, 102, 102);
+    width: 30px;
+    transition: 0.1s all ease;
+    margin: 0 2px;
+    border-radius: 0 0 30px 30px;
+}
+
+
+#speed 
+{
+    background: white;
+    cursor: pointer;
+    padding: 20px 20px 20px 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: #09aee0 1px solid;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+#speed #speed_input
+{
+    cursor: pointer;
+    height: 100%;
+    margin: auto 10px;
+    -webkit-appearance: none;
+    outline: none;
+    background: lightseagreen;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+}
+#size
+{
+    background: white;
+    cursor: pointer;
+    padding: 20px 20px 20px 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: #09aee0 1px solid;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+#size #arr_sz 
+{
+    cursor: pointer;
+    height: 100%;
+    margin: auto 10px;
+    -webkit-appearance: none;
+    outline: none;
+    background: lightseagreen;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+p
+{
+    color: white;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+#input{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
